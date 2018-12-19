@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mine/mine",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#f09",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "微信接口功能演示",
+    "backgroundColor": "#eee",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh":true
+    
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#f09",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "new ",
+        "selectedIconPath": "iconpng/home.png",
+        "iconPath": "iconpng/home.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "hot ",
+        "selectedIconPath": "iconpng/text.png",
+        "iconPath": "iconpng/text.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "rock ",
+        "selectedIconPath": "iconpng/wode.png",
+        "iconPath": "iconpng/wode.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "jazz"
+      }
+    ]
+  },
+  "debug": true
+}
